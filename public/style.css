@@ -1,0 +1,5 @@
+body { margin:0; padding:10px; background:#111; color:#fff; font-family: Arial, sans-serif; }
+#controls { margin-bottom:10px; }
+#video-grid { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+video { width:320px; height:240px; object-fit:cover; background:#000; border-radius:8px; }
+input#roomId { width:300px; padding:6px; }
