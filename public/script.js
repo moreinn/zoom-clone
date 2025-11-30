@@ -30,8 +30,6 @@ async function init() {
       if (vid && vid.parentElement) vid.parentElement.remove();
     });
 
-    // Minimal example: this shows local video and join/disconnect events.
-    // To full WebRTC P2P, use the more advanced client.js from earlier messages.
   } catch (err) {
     alert('Could not access camera/microphone: ' + err.message);
   }
